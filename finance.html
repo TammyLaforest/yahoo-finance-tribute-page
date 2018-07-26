@@ -5,18 +5,23 @@
 
     <title>Yahoo Tribute Page</title>
 
-  <!-- my own css, much from google for use with sheets -->
+    <!-- my own css, much from google for use with sheets -->
     <link type="text/css" rel="stylesheet" href="stylesheet2.css">
 
     <!-- BootStap CSS -->
     <link type="text/css" rel="stylesheet" href="bootstrap.css">
-    
+
     <!-- favicon -->
     <link rel="shortcut icon" href="faviconyahoo.ico" type="image/x-icon" />
+    
+<!-- Boostrap Javascript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
-   
-   
-   
+
+
+
     <!-- Script I didn't use
     <script src="https://www.google.com/jsapi" type="text/javascript"></script> 
     <script type='text/javascript' nonce='E9ZWCYDgtfg685JIAqi4V5mNlRk'>
@@ -64,190 +69,191 @@ posObjs();</script>
 <body>
 
     <h1>Yahoo Finance Portfolio</h1>
-<div class="container">
-    <div class="row">
-        <div class="col-lg">
-            <div class="card">
-                <div class ="card-body">
-    <div class="ritz grid-container" dir="ltr">
-        <table class="waffle" cellspacing="0" cellpadding="0">
-            <thead>
-                <tr>
-                  <th>
-                    <th id="649595938C0" style="width:100px" class="column-headers-background">Symbol</th>
-                    <th id="649595938C1" style="width:100px" class="column-headers-background">Last Price</th>
-                    <th id="649595938C2" style="width:100px" class="column-headers-background">Change</th>
-                    <th id="649595938C3" style="width:100px" class="column-headers-background">% Chg</th>
-                    <th id="649595938C4" style="width:100px" class="column-headers-background">Volume</th>
-                    <th id="649595938C5" style="width:100px" class="column-headers-background">52-Wk Low</th>
-                    <th id="649595938C6" style="width:100px" class="column-headers-background">52-Wk High</th>
-                    <th id="649595938C7" style="width:100px" class="column-headers-background">Market Cap                    </th>
-                </tr>
-            </thead>
-            <tbody>
-              
-                <tr style='height:20px;'>
-                  <th id="649595938R1" style="height: 20px;" class="row-headers-background"></th>
-                    <td class="s2" dir="ltr"><a target="_blank" href="https://finance.yahoo.com/quote/AAPL">AAPL</a></td>
-                    <td class="s3" dir="ltr">194.63</td>
-                    <td class="s4" dir="ltr">-0.19</td>
-                    <td class="s4" dir="ltr">-0.10%</td>
-                    <td class="s5" dir="ltr">9.26M</td>
-                    <td class="s6" dir="ltr">147.3</td>
-                    <td class="s6" dir="ltr">195.96</td>
-                    <td class="s5" dir="ltr">956.63B</td>
-                </tr>
-                <tr style='height:20px;'>
-                    <th id="649595938R2" style="height: 20px;" class="row-headers-background">
-                
-                    </th>
-                    <td class="s2" dir="ltr"><a target="_blank" href="https://finance.yahoo.com/quote/AMZN">AMZN</a></td>
-                    <td class="s3" dir="ltr">1,827.11</td>
-                    <td class="s4" dir="ltr">-36.5</td>
-                    <td class="s4" dir="ltr">-1.96%</td>
-                    <td class="s5" dir="ltr">3.33M</td>
-                    <td class="s6" dir="ltr">931.75</td>
-                    <td class="s6" dir="ltr">1863.84</td>
-                    <td class="s5" dir="ltr">886.57B</td>
-                </tr>
-                <tr style='height:20px;'>
-                    <th id="649595938R3" style="height: 20px;" class="row-headers-background">
-                       
-                    </th>
-                    <td class="s2" dir="ltr"><a target="_blank" href="https://finance.yahoo.com/quote/CVS">CVS</a></td>
-                    <td class="s3" dir="ltr">66.49</td>
-                    <td class="s7">0.5</td>
-                    <td class="s7">0.0076</td>
-                    <td class="s5" dir="ltr">1.50M</td>
-                    <td class="s6" dir="ltr">60.14</td>
-                    <td class="s6" dir="ltr">84</td>
-                    <td class="s5" dir="ltr">67.60B</td>
-                </tr>
-                <tr style='height:20px;'>
-                    <th id="649595938R4" style="height: 20px;" class="row-headers-background">
-                       
-                    </th>
-                    <td class="s2" dir="ltr"><a target="_blank" href="https://finance.yahoo.com/quote/FB">FB</a></td>
-                    <td class="s3" dir="ltr">176.7</td>
-                    <td class="s4" dir="ltr">-40.8</td>
-                    <td class="s4" dir="ltr">-18.76%</td>
-                    <td class="s5" dir="ltr">102.62M</td>
-                    <td class="s6" dir="ltr">149.02</td>
-                    <td class="s6" dir="ltr">218.62</td>
-                    <td class="s5" dir="ltr">511.49B</td>
-                </tr>
-                <tr style='height:20px;'>
-                    <th id="649595938R5" style="height: 20px;" class="row-headers-background">
-                       
-                    </th>
-                    <td class="s2" dir="ltr"><a target="_blank" href="https://finance.yahoo.com/quote/GOOG">GOOG</a></td>
-                    <td class="s3" dir="ltr">1,261.98</td>
-                    <td class="s4" dir="ltr">-1.72</td>
-                    <td class="s4" dir="ltr">-0.14%</td>
-                    <td class="s5" dir="ltr">892.70k</td>
-                    <td class="s6" dir="ltr">903.4</td>
-                    <td class="s6" dir="ltr">1266</td>
-                    <td class="s5" dir="ltr">879.13B</td>
-                </tr>
-                <tr style='height:20px;'>
-                    <th id="649595938R6" style="height: 20px;" class="row-headers-background">
-                       
-                    </th>
-                    <td class="s2" dir="ltr"><a target="_blank" href="https://finance.yahoo.com/quote/HAS">HAS</a></td>
-                    <td class="s3" dir="ltr">100.82</td>
-                    <td class="s4" dir="ltr">-0.85</td>
-                    <td class="s4" dir="ltr">-0.84%</td>
-                    <td class="s5" dir="ltr">445.36k</td>
-                    <td class="s6" dir="ltr">79</td>
-                    <td class="s6" dir="ltr">107.58</td>
-                    <td class="s5" dir="ltr">12.91B</td>
-                </tr>
-                <tr style='height:20px;'>
-                    <th id="649595938R7" style="height: 20px;" class="row-headers-background">
-                        
-                    </th>
-                    <td class="s2" dir="ltr"><a target="_blank" href="https://finance.yahoo.com/quote/MSFT">MSFT</a></td>
-                    <td class="s3" dir="ltr">110.08</td>
-                    <td class="s4" dir="ltr">-0.75</td>
-                    <td class="s4" dir="ltr">-0.68%</td>
-                    <td class="s5" dir="ltr">12.69M</td>
-                    <td class="s6" dir="ltr">71.28</td>
-                    <td class="s6" dir="ltr">111.15</td>
-                    <td class="s5" dir="ltr">845.77B</td>
-                </tr>
-                <tr style='height:20px;'>
-                    <th id="649595938R8" style="height: 20px;" class="row-headers-background">
-                   
-                    </th>
-                    <td class="s2" dir="ltr"><a target="_blank" href="https://finance.yahoo.com/quote/NGG">NGG</a></td>
-                    <td class="s3" dir="ltr">54.88</td>
-                    <td class="s7">0.3</td>
-                    <td class="s7">0.0055</td>
-                    <td class="s5" dir="ltr">181.48k</td>
-                    <td class="s8" dir="ltr">51.44</td>
-                    <td class="s6" dir="ltr">65.6</td>
-                    <td class="s5" dir="ltr">37.00B</td>
-                </tr>
-                <tr style='height:20px;'>
-                    <th id="649595938R9" style="height: 20px;" class="row-headers-background">
-                        
-                    </th>
-                    <td class="s2" dir="ltr"><a target="_blank" href="https://finance.yahoo.com/quote/NVDA">NVDA</a></td>
-                    <td class="s3" dir="ltr">255.02</td>
-                    <td class="s7">3.15</td>
-                    <td class="s7">0.0125</td>
-                    <td class="s5" dir="ltr">4.10M</td>
-                    <td class="s6" dir="ltr">152.91</td>
-                    <td class="s6" dir="ltr">269.75</td>
-                    <td class="s5" dir="ltr">154.80B</td>
-                </tr>
-                <tr style='height:20px;'>
-                    <th id="649595938R10" style="height: 20px;" class="row-headers-background">
-                   
-                    </th>
-                    <td class="s2" dir="ltr"><a target="_blank" href="https://finance.yahoo.com/quote/RTN">RTN</a></td>
-                    <td class="s3" dir="ltr">191.62</td>
-                    <td class="s4" dir="ltr">-5.94</td>
-                    <td class="s4" dir="ltr">-3.01%</td>
-                    <td class="s5" dir="ltr">1.81M</td>
-                    <td class="s6" dir="ltr">161.87</td>
-                    <td class="s6" dir="ltr">229.75</td>
-                    <td class="s5" dir="ltr">55.04B</td>
-                </tr>
-                <tr style='height:20px;'>
-                    <th id="649595938R11" style="height: 20px;" class="row-headers-background">
-                       
-                    </th>
-                    <td class="s2" dir="ltr"><a target="_blank" href="https://finance.yahoo.com/quote/SNAP">SNAP</a></td>
-                    <td class="s3" dir="ltr">13.14</td>
-                    <td class="s4" dir="ltr">-0.25</td>
-                    <td class="s4" dir="ltr">-1.87%</td>
-                    <td class="s5" dir="ltr">10.78M</td>
-                    <td class="s6" dir="ltr">10.5</td>
-                    <td class="s6" dir="ltr">21.22</td>
-                    <td class="s5" dir="ltr">16.69B</td>
-                </tr>
-                <tr style='height:20px;'>
-                    <th id="649595938R12" style="height: 20px;" class="row-headers-background">
-                  
-                    </th>
-                    <td class="s2" dir="ltr"><a target="_blank" href="https://finance.yahoo.com/quote/TSLA">TSLA</a></td>
-                    <td class="s3" dir="ltr">308.16</td>
-                    <td class="s4" dir="ltr">-0.58</td>
-                    <td class="s4" dir="ltr">-0.19%</td>
-                    <td class="s5" dir="ltr">2.23M</td>
-                    <td class="s6" dir="ltr">244.5</td>
-                    <td class="s6" dir="ltr">380.61</td>
-                    <td class="s5" dir="ltr">52.32B</td>
-                </tr>
-            </tbody>
-        </table>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="ritz grid-container" dir="ltr">
+                            <table class="waffle" cellspacing="0" cellpadding="0">
+                                <thead>
+                                    <tr>
+                                        <th>
+                                            <th id="649595938C0" style="width:100px" class="column-headers-background">Symbol</th>
+                                            <th id="649595938C1" style="width:100px" class="column-headers-background">Last Price</th>
+                                            <th id="649595938C2" style="width:100px" class="column-headers-background">Change</th>
+                                            <th id="649595938C3" style="width:100px" class="column-headers-background">% Chg</th>
+                                            <th id="649595938C4" style="width:100px" class="column-headers-background">Volume</th>
+                                            <th id="649595938C5" style="width:100px" class="column-headers-background">52-Wk Low</th>
+                                            <th id="649595938C6" style="width:100px" class="column-headers-background">52-Wk High</th>
+                                            <th id="649595938C7" style="width:100px" class="column-headers-background">Market Cap
+                                            </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+
+                                    <tr style='height:20px;'>
+                                        <th id="649595938R1" style="height: 20px;" class="row-headers-background"></th>
+                                        <td class="s2" dir="ltr"><a target="_blank" href="https://finance.yahoo.com/quote/AAPL">AAPL</a></td>
+                                        <td class="s3" dir="ltr">194.63</td>
+                                        <td class="s4" dir="ltr">-0.19</td>
+                                        <td class="s4" dir="ltr">-0.10%</td>
+                                        <td class="s5" dir="ltr">9.26M</td>
+                                        <td class="s6" dir="ltr">147.3</td>
+                                        <td class="s6" dir="ltr">195.96</td>
+                                        <td class="s5" dir="ltr">956.63B</td>
+                                    </tr>
+                                    <tr style='height:20px;'>
+                                        <th id="649595938R2" style="height: 20px;" class="row-headers-background">
+
+                                        </th>
+                                        <td class="s2" dir="ltr"><a target="_blank" href="https://finance.yahoo.com/quote/AMZN">AMZN</a></td>
+                                        <td class="s3" dir="ltr">1,827.11</td>
+                                        <td class="s4" dir="ltr">-36.5</td>
+                                        <td class="s4" dir="ltr">-1.96%</td>
+                                        <td class="s5" dir="ltr">3.33M</td>
+                                        <td class="s6" dir="ltr">931.75</td>
+                                        <td class="s6" dir="ltr">1863.84</td>
+                                        <td class="s5" dir="ltr">886.57B</td>
+                                    </tr>
+                                    <tr style='height:20px;'>
+                                        <th id="649595938R3" style="height: 20px;" class="row-headers-background">
+
+                                        </th>
+                                        <td class="s2" dir="ltr"><a target="_blank" href="https://finance.yahoo.com/quote/CVS">CVS</a></td>
+                                        <td class="s3" dir="ltr">66.49</td>
+                                        <td class="s7">0.5</td>
+                                        <td class="s7">0.0076</td>
+                                        <td class="s5" dir="ltr">1.50M</td>
+                                        <td class="s6" dir="ltr">60.14</td>
+                                        <td class="s6" dir="ltr">84</td>
+                                        <td class="s5" dir="ltr">67.60B</td>
+                                    </tr>
+                                    <tr style='height:20px;'>
+                                        <th id="649595938R4" style="height: 20px;" class="row-headers-background">
+
+                                        </th>
+                                        <td class="s2" dir="ltr"><a target="_blank" href="https://finance.yahoo.com/quote/FB">FB</a></td>
+                                        <td class="s3" dir="ltr">176.7</td>
+                                        <td class="s4" dir="ltr">-40.8</td>
+                                        <td class="s4" dir="ltr">-18.76%</td>
+                                        <td class="s5" dir="ltr">102.62M</td>
+                                        <td class="s6" dir="ltr">149.02</td>
+                                        <td class="s6" dir="ltr">218.62</td>
+                                        <td class="s5" dir="ltr">511.49B</td>
+                                    </tr>
+                                    <tr style='height:20px;'>
+                                        <th id="649595938R5" style="height: 20px;" class="row-headers-background">
+
+                                        </th>
+                                        <td class="s2" dir="ltr"><a target="_blank" href="https://finance.yahoo.com/quote/GOOG">GOOG</a></td>
+                                        <td class="s3" dir="ltr">1,261.98</td>
+                                        <td class="s4" dir="ltr">-1.72</td>
+                                        <td class="s4" dir="ltr">-0.14%</td>
+                                        <td class="s5" dir="ltr">892.70k</td>
+                                        <td class="s6" dir="ltr">903.4</td>
+                                        <td class="s6" dir="ltr">1266</td>
+                                        <td class="s5" dir="ltr">879.13B</td>
+                                    </tr>
+                                    <tr style='height:20px;'>
+                                        <th id="649595938R6" style="height: 20px;" class="row-headers-background">
+
+                                        </th>
+                                        <td class="s2" dir="ltr"><a target="_blank" href="https://finance.yahoo.com/quote/HAS">HAS</a></td>
+                                        <td class="s3" dir="ltr">100.82</td>
+                                        <td class="s4" dir="ltr">-0.85</td>
+                                        <td class="s4" dir="ltr">-0.84%</td>
+                                        <td class="s5" dir="ltr">445.36k</td>
+                                        <td class="s6" dir="ltr">79</td>
+                                        <td class="s6" dir="ltr">107.58</td>
+                                        <td class="s5" dir="ltr">12.91B</td>
+                                    </tr>
+                                    <tr style='height:20px;'>
+                                        <th id="649595938R7" style="height: 20px;" class="row-headers-background">
+
+                                        </th>
+                                        <td class="s2" dir="ltr"><a target="_blank" href="https://finance.yahoo.com/quote/MSFT">MSFT</a></td>
+                                        <td class="s3" dir="ltr">110.08</td>
+                                        <td class="s4" dir="ltr">-0.75</td>
+                                        <td class="s4" dir="ltr">-0.68%</td>
+                                        <td class="s5" dir="ltr">12.69M</td>
+                                        <td class="s6" dir="ltr">71.28</td>
+                                        <td class="s6" dir="ltr">111.15</td>
+                                        <td class="s5" dir="ltr">845.77B</td>
+                                    </tr>
+                                    <tr style='height:20px;'>
+                                        <th id="649595938R8" style="height: 20px;" class="row-headers-background">
+
+                                        </th>
+                                        <td class="s2" dir="ltr"><a target="_blank" href="https://finance.yahoo.com/quote/NGG">NGG</a></td>
+                                        <td class="s3" dir="ltr">54.88</td>
+                                        <td class="s7">0.3</td>
+                                        <td class="s7">0.0055</td>
+                                        <td class="s5" dir="ltr">181.48k</td>
+                                        <td class="s8" dir="ltr">51.44</td>
+                                        <td class="s6" dir="ltr">65.6</td>
+                                        <td class="s5" dir="ltr">37.00B</td>
+                                    </tr>
+                                    <tr style='height:20px;'>
+                                        <th id="649595938R9" style="height: 20px;" class="row-headers-background">
+
+                                        </th>
+                                        <td class="s2" dir="ltr"><a target="_blank" href="https://finance.yahoo.com/quote/NVDA">NVDA</a></td>
+                                        <td class="s3" dir="ltr">255.02</td>
+                                        <td class="s7">3.15</td>
+                                        <td class="s7">0.0125</td>
+                                        <td class="s5" dir="ltr">4.10M</td>
+                                        <td class="s6" dir="ltr">152.91</td>
+                                        <td class="s6" dir="ltr">269.75</td>
+                                        <td class="s5" dir="ltr">154.80B</td>
+                                    </tr>
+                                    <tr style='height:20px;'>
+                                        <th id="649595938R10" style="height: 20px;" class="row-headers-background">
+
+                                        </th>
+                                        <td class="s2" dir="ltr"><a target="_blank" href="https://finance.yahoo.com/quote/RTN">RTN</a></td>
+                                        <td class="s3" dir="ltr">191.62</td>
+                                        <td class="s4" dir="ltr">-5.94</td>
+                                        <td class="s4" dir="ltr">-3.01%</td>
+                                        <td class="s5" dir="ltr">1.81M</td>
+                                        <td class="s6" dir="ltr">161.87</td>
+                                        <td class="s6" dir="ltr">229.75</td>
+                                        <td class="s5" dir="ltr">55.04B</td>
+                                    </tr>
+                                    <tr style='height:20px;'>
+                                        <th id="649595938R11" style="height: 20px;" class="row-headers-background">
+
+                                        </th>
+                                        <td class="s2" dir="ltr"><a target="_blank" href="https://finance.yahoo.com/quote/SNAP">SNAP</a></td>
+                                        <td class="s3" dir="ltr">13.14</td>
+                                        <td class="s4" dir="ltr">-0.25</td>
+                                        <td class="s4" dir="ltr">-1.87%</td>
+                                        <td class="s5" dir="ltr">10.78M</td>
+                                        <td class="s6" dir="ltr">10.5</td>
+                                        <td class="s6" dir="ltr">21.22</td>
+                                        <td class="s5" dir="ltr">16.69B</td>
+                                    </tr>
+                                    <tr style='height:20px;'>
+                                        <th id="649595938R12" style="height: 20px;" class="row-headers-background">
+
+                                        </th>
+                                        <td class="s2" dir="ltr"><a target="_blank" href="https://finance.yahoo.com/quote/TSLA">TSLA</a></td>
+                                        <td class="s3" dir="ltr">308.16</td>
+                                        <td class="s4" dir="ltr">-0.58</td>
+                                        <td class="s4" dir="ltr">-0.19%</td>
+                                        <td class="s5" dir="ltr">2.23M</td>
+                                        <td class="s6" dir="ltr">244.5</td>
+                                        <td class="s6" dir="ltr">380.61</td>
+                                        <td class="s5" dir="ltr">52.32B</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    </div>
-    </div>
-    </div>
-    </div>
-</div>
 
     <footer>
 
