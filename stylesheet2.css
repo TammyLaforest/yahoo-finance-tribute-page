@@ -1,98 +1,101 @@
- .column-headers-background,
-.row-headers-background {
-    z-index: 1
+
+.navbar-expand-lg {
+ line-height: 3em;
 }
+
+
+h1 {
+ padding-top: 1em;
+ padding-bottom: .25em;
+}
+
+
+/*This is the css code for my table */
+
+ .column-headers-background {
+     z-index: 1;
+     width: 115px;
+     text-align: right;
+ }
+
+ .row-headers-background {
+     z-index: 1;
+     width: 50px;
+ }
+
+ .waffle {
+     text-align: right; 
+     font-size: 12pt;
+     vertical-align: bottom;
+     white-space: nowrap;
+     direction: ltr;
+     padding: 2px 3px 2px 3px;
+ }
+ .waffle .negative {
+     color: red;
+ }
+
+ .waffle .positive {
+     color: green;
+ }
+
+
+.sign-up-container {
+ border-top-style: solid;
+ border-top-color: black;
+ border-top-width: 1px;
+ border-bottom-style: solid;
+ border-bottom-color: black;
+ border-bottom-width: 1px;
+ padding-top: 2em; 
+ padding-bottom: 2em;
+ margin-top: 2em;
+}
+
  
-  .ritz .waffle a {
-        color: blue;
-    }
-    
-    .ritz .waffle {
-        background-color: #ffffff;
-        text-align: left;
-        text-decoration: none;
-        font-family: 'Helvetica Neue', Arial;
-        font-size: 12pt;
-        vertical-align: bottom;
-        white-space: nowrap;
-        direction: ltr;
-        padding: 2px 3px 2px 3px;
-    }
-   
-      .ritz .waffle .s4 {
-color: red;
-    }
+/* The code for my footer */
 
-    .ritz .waffle .s7 {
- color: green;
-    }
-    
-    .grid-container {
-    height: 100%;
-    width: 100%;
-    overflow: auto
-}
-.waffle td,
-.grid-fixed-table td {
-    overflow: hidden;
-    border: 1px #e5e5e5 solid;
-    border-color: rgba(0, 0, 0, 0.15);
-    border-width: 0 1px 1px 0;
-    vertical-align: bottom;
-    line-height: inherit;
-    background-color: #fff;
-    padding: 0 3px
+#footer-custom {
+ background-color: #f8f9fa;
+ padding-top: 2em;
+ 
 }
 
-.waffle .softmerge {
-    overflow: visible
+#form-container {
+ padding-top: 2em;
+ padding-bottom: 2em;
+
+}
+ .form-button-collapse:hover {
+  padding: 1em;
+  font-family: sans-serif;
+  background-color: white;
+  border-style: solid;
+border-width: thin;
+border-color: gainsboro;
+color: black;
+font-weight: bold;
+  
+ }
+  .form-button-collapse {
+ padding: 1em;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  font-family: sans-serif;
+  background-color: black;
+border-style: solid;
+border-width: thin;
+border-color: gainsboro;
+color: white;
+font-weight: bold;
+ }
+
+#social-buttons 
+{padding-top: 1em;
+ 
 }
 
-.softmerge-inner {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: hidden;
-    position: relative
+#topbar { 
+
+ 
 }
-
-th.row-header {
-    background-color: #eee;
-    width: 45px;
-    text-align: center;
-    vertical-align: middle;
-    font-size: 8pt;
-    color: #333;
-    line-height: inherit;
-    overflow: hidden
-} 
-.freezebar-origin-ltr {
-    height: 23px;
-    width: 45px;
-    position: absolute;
-    top: 0px;
-    border: 1px #ccc solid
-}
-
-/*.freezebar-origin-ltr {
-    background: no-repeat url("//ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -205px 0;
-    left: 0px;
-    border-width: 0 1px 1px 0
-}
-
-freezebar-origin-ltr
-th.tall-row,
-td.tall-row {
-    vertical-align: top
-}
-
-th.freezebar-origin-ltr {
-    background: no-repeat url("//ssl.gstatic.com/docs/spreadsheets/waffle_sprite53.png") -205px 0
-}
-
-
-th.freezebar-origin-ltr,
-th.freezebar-origin-rtl {
-    background-color: #eee;
-    position: relative
-}*/
-
