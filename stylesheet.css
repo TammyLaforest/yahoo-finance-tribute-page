@@ -131,8 +131,10 @@ padding-top: 1.5em;
  background-color: #f8f9fa;
 }
 #yahoologo {
-  animation-duration: 5s;
-  animation-delay: 3s;
+  animation-duration:4s;
+  animation-delay: 2s;
   animation-iteration-count: 1;
- 
+ position:fixed;
+ width:auto;
+height:auto;
 }
