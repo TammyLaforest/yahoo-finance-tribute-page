@@ -7,6 +7,19 @@ font-family: 'Philosopher', sans-serif;
 
 */
 
+.header-img {
+ max-width:100%;
+ height: auto;
+}
+
+a {
+ text-decoration: none;
+ color: inherit;
+}
+a:hover {
+ text-decoration: none;
+ color: slategray;
+}
 body
 
 {font-family: 'Montserrat', sans-serif;}
@@ -63,6 +76,13 @@ h1 {
      font-weight: bold;
  }
 
+.waffle a {
+ color: blue;
+ 
+}
+.waffle a:hover{
+ color: darkblue;
+}
 
 /* The code for my footer */
 
@@ -134,7 +154,59 @@ padding-top: 1.5em;
   animation-duration:4s;
   animation-delay: 2s;
   animation-iteration-count: 1;
- position:fixed;
+ position:absolute;
  width:auto;
 height:auto;
 }
+
+.hiddenlogo {
+    margin-right: 40px;
+}
+
+
+#photo-login .photo-login {
+    width: 100%; 
+    height: auto;
+}
+
+
+
+#submit-button {
+    margin-bottom: 1em;
+}
+
+.center {
+    display: block;
+  margin: auto;
+    width: 50%;
+}
+
+.services-col {
+ max-width: 50%;
+}
+
+ #wide-version-of-table {
+        display: block;
+    }
+
+    #narrow-version-of-table {
+        display: none;
+    }
+
+    @media (max-width:765px)
+    /* The maximum width for the mobile device version. */
+
+        {
+        #wide-version-of-table {
+            display: none;
+        }
+        #narrow-version-of-table {
+            display: block;
+        }
+    }
+    
+  .news-img {
+   max-height: 200px;
+  width: auto;
+   margin: 1em;
+  }
