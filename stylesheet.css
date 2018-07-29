@@ -1,0 +1,138 @@
+
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Philosopher', sans-serif;
+
+*/
+
+body
+
+{font-family: 'Montserrat', sans-serif;}
+
+.Navbar-brand{
+    font-size: large;
+}
+
+.navbar-expand-lg {
+ line-height: 3em;
+}
+
+.navbar {
+    background-color: #f8f9fa;
+}
+
+h1 {
+ padding-top: 1em;
+ padding-bottom: .25em;
+}
+
+
+/*This is the css code for my table */
+
+ .column-headers-background {
+     z-index: 1;
+     width: 115px;
+     text-align: right;
+     font-weight: bolder;
+ }
+
+ .row-headers-background {
+     z-index: 1;
+     width: 50px;
+     
+ }
+
+ .waffle {
+     text-align: right; 
+     font-size: 12pt;
+     vertical-align: bottom;
+     white-space: nowrap;
+     direction: ltr;
+     padding: 2px 3px 2px 3px;
+     font-family: 'Raleway', sans-serif;
+ }
+ .waffle .negative {
+     color: red;
+       font-weight: bold;
+ }
+
+ .waffle .positive {
+     color: #2ed573;
+     font-weight: bold;
+ }
+
+
+/* The code for my footer */
+
+#social-buttons 
+{padding-top: 1em;
+ 
+}
+
+
+#footer-custom {
+ background-color: #f8f9fa;
+ padding-top: 2em;
+ 
+}
+
+#form-container {
+ /*padding-top: 2em;*/
+ padding-bottom: 2em;
+
+}
+
+  .form-button-collapse {
+padding: 1em;
+margin-bottom: 1em;
+  margin-top: 1em;
+  font-family: sans-serif;
+  background-color: black;
+border-style: solid;
+border-width: thin;
+border-color: black;
+color: white;
+font-weight: bold;
+display: block;
+width: 65%;
+ }
+ 
+  .form-button-collapse:hover {
+  padding: 1em;
+  font-family: sans-serif;
+  background-color: white;
+  border-style: solid;
+border-width: thin;
+border-color: black;
+color: black;
+font-weight: bold;
+  
+ }
+ /*Code for sign up form container */
+.sign-up-container {
+ /*border-top-style: solid;
+ border-top-color: black;
+ border-top-width: 1px;
+ border-bottom-style: solid;
+ border-bottom-color: black;
+ border-bottom-width: 1px;*/
+ padding-top: 2em;
+ padding-bottom: 2em;
+ margin-top: 0;
+}
+
+
+
+#services {
+padding-top: 1.5em;
+ padding-bottom: 3em;
+ background-color: #f8f9fa;
+}
+#yahoologo {
+  animation-duration: 5s;
+  animation-delay: 3s;
+  animation-iteration-count: 1;
+ 
+}

@@ -1,8 +1,8 @@
 
-.navbar-expand-lg {
+/*.navbar-expand-lg {
  line-height: 3em;
-}
 
+}*/
 
 h1 {
  padding-top: 1em;
@@ -47,9 +47,9 @@ h1 {
  border-bottom-style: solid;
  border-bottom-color: black;
  border-bottom-width: 1px;
- padding-top: 2em; 
+ padding-top: 2em;
  padding-bottom: 2em;
- margin-top: 2em;
+ margin-top: 0;
 }
 
  
@@ -62,40 +62,46 @@ h1 {
 }
 
 #form-container {
- padding-top: 2em;
+ /*padding-top: 2em;*/
  padding-bottom: 2em;
 
 }
- .form-button-collapse:hover {
-  padding: 1em;
-  font-family: sans-serif;
-  background-color: white;
-  border-style: solid;
-border-width: thin;
-border-color: gainsboro;
-color: black;
-font-weight: bold;
-  
- }
+
   .form-button-collapse {
- padding: 1em;
-  margin-bottom: 1em;
+padding: 1em;
+margin-bottom: 1em;
   margin-top: 1em;
   font-family: sans-serif;
   background-color: black;
 border-style: solid;
 border-width: thin;
-border-color: gainsboro;
+border-color: black;
 color: white;
 font-weight: bold;
+display: block;
+width: 65%;
  }
+ 
+  .form-button-collapse:hover {
+  padding: 1em;
+  font-family: sans-serif;
+  background-color: white;
+  border-style: solid;
+border-width: thin;
+border-color: black;
+color: black;
+font-weight: bold;
+  
+ }
+
 
 #social-buttons 
 {padding-top: 1em;
  
 }
 
-#topbar { 
-
+#services {
+padding-top: 1.5em;
+ padding-bottom: 3em;
  
 }
