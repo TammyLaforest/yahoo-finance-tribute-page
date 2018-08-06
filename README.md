@@ -5,7 +5,9 @@ You will create two HTML/CSS web pages (a home page and secondary, finance page 
 
 Create a Yahoo Finance My Portfolio account (https://finance.yahoo.com/portfolios) for yourself using your personal email address (not your intracity geeks email). You don’t have to create a Yahoo email account.  You can use your own email.
 Your portfolio will allow you to view track the the performance of stocks (symbols) with real-time data and news related to your symbols (stocks).
+
 Add at least twelve stocks (at least 5 must be tech stocks) to your watchlist.
+
 You will take information from your yahoo finance page to create your It should contain at least the following fields:
 Your secondary, finance page will have a table that contains the following fields:  Symbol, Last Price, Change,	% Chg, Volume, 52 Week Low, 52 Week High, Market Cap
 Your secondary, finance page should look something like the screenshot below (minus the unneeded fields/graphs and perhaps not as pretty) 

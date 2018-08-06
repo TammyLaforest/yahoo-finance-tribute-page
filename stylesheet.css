@@ -43,7 +43,15 @@ h1 {
     font-weight: bold;
 }
 
+ h4{
+   color: #430297;
+    font-weight: bold;
+}
 
+h3{
+    color: #430297;
+    font-weight: bold;
+}
 /*This is the css code for my table */
 
 .column-headers-background {
@@ -127,9 +135,9 @@ h1 {
     font-family: sans-serif;
     background-color: white;
     border-style: solid;
-    border-width: thin;
-    border-color: black;
-    color: black;
+    border-width: 2px;
+    border-color:#430297;
+    color: #430297;
     font-weight: bold;
 
 }
@@ -218,9 +226,6 @@ h1 {
     width: 50%;
 }
 
-.services-col {
-    max-width: 50%;
-}
 
 
 .news-img {
@@ -346,16 +351,14 @@ h1 {
 }
 
 
-.navbar-brand span {
+.navbar-brand span  {
     color: #430297;
     font-weight: bold;
 
 }
 
-h4 {
-    color: #430297;
-    font-weight: bold;
-}
+
+
 
 .collapse-right {
     height: auto;
@@ -417,10 +420,37 @@ h4 {
 }
 
 .container-services-wide {
-    width: 50%;
+    width: 55%;
     vertical-align: central;
     margin: auto;
     padding-bottom: 2em;
 }
 .zoom:hover {
-    transform: scale(1.25);}
+    color: #430297;
+    transform: scale(1.3);} 
+    
+    .shrink:hover {
+    transform: scale(.9);} 
+    
+/*i:hover{
+    color: #430297;
+    transform: scale(1.3);
+}*/
+
+.container-services-wide i:hover{
+    transform: none;
+    color: black;
+}
+    
+ul li {
+    color: #430297;
+    font-size: larger;
+}
+
+ul li span {
+    color: black;
+}
+
+footer ul li {
+    color: black;
+}
