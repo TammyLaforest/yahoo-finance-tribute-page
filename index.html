@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Home - Fake Yahoo Page</title>
+    
     <!-- BootStap CSS -->
     <link type="text/css" rel="stylesheet" href="bootstrap.css">
 
@@ -18,12 +19,15 @@
     <!-- Javascript bootstrap -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+  
+   </script> 
 
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Nunito|Philosopher|Raleway" rel="stylesheet">
-
+    
+<!-- animation -->
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css" integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw" crossorigin="anonymous">
     <!-- or -->
@@ -67,16 +71,16 @@
     <img src="photos/croppedskyscraper2520x1000.png" class="header-img">
 
     <!-- Start of News Section -->
-    <div class="container-fluid" id="news">
-        <div class="container">
+    <div class="d-flex" id="news">
+        <div class="container news-container">
 
-            <div class="row">
+            <div class="row d-flex flex-row">
                 <div class="col-lg">
                 <h4 style="padding-top: 2em;">Finance News</h4>
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row d-flex flex-row">
 
                 <div class="col-sm">
                     <div class="card h-100">
@@ -91,14 +95,14 @@
                 </div>
                 <!-- end of featured column of news -->
 
-                <div class="col-sm">
+                <div class="col-sm d-flex flex-column">
                     <!-- represents the column that is the news thumbnail section -->
 
                     <div class="card-block">
-                        <div class="row">
+                        <div class="row d-flex flex-row">
                             <!-- Row A of thumbnail section -->
 
-                            <div class="col-sm">
+                            <div class="col-lg d-flex flex-column">
                                 <!-- column A of row A -->
                                 <div class="card h-100">
                                     <div class="card-body">
@@ -113,7 +117,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-sm">
+                            <div class="col-lg d-flex flex-column">
                                 <!-- column B or row A -->
                                 <div class="card h-100">
                                     <div class="card-body">
@@ -130,10 +134,10 @@
                             </div>
                         </div>
                         <!-- closes row a -->
-                        <div class="row">
+                        <div class="row d-flex flex-row">
                             <!-- row b of thumbnail section -->
 
-                            <div class="col-sm">
+                            <div class="col-lg d-flex flex-column">
                                 <!-- column a of row b -->
                                 <div class="card h-100">
                                     <div class="card-body">
@@ -146,7 +150,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-sm">
+                            <div class="col-lg d-flex flex-column">
                                 <!-- column B or row A -->
                                 <div class="card h-100">
                                     <div class="card-body">
@@ -175,8 +179,6 @@
     </div>
     <!-- /container-fluid -->
     <!-- end of news -->
-
-
 
 
     <!-- services section -->
