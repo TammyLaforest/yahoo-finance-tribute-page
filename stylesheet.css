@@ -39,19 +39,20 @@ body {
 h1 {
     padding-top: 1em;
     padding-bottom: .25em;
-     color: #430297;
-    font-weight: bold;
-}
-
- h4{
-   color: #430297;
-    font-weight: bold;
-}
-
-h3{
     color: #430297;
     font-weight: bold;
 }
+
+h4 {
+    color: #430297;
+    font-weight: bold;
+}
+
+h3 {
+    color: #430297;
+    font-weight: bold;
+}
+
 /*This is the css code for my table */
 
 .column-headers-background {
@@ -136,7 +137,7 @@ h3{
     background-color: white;
     border-style: solid;
     border-width: 2px;
-    border-color:#430297;
+    border-color: #430297;
     color: #430297;
     font-weight: bold;
 
@@ -351,7 +352,7 @@ h3{
 }
 
 
-.navbar-brand span  {
+.navbar-brand span {
     color: #430297;
     font-weight: bold;
 
@@ -425,23 +426,26 @@ h3{
     margin: auto;
     padding-bottom: 2em;
 }
+
 .zoom:hover {
     color: #430297;
-    transform: scale(1.3);} 
-    
-    .shrink:hover {
-    transform: scale(.9);} 
-    
+    transform: scale(1.3);
+}
+
+.shrink:hover {
+    transform: scale(.9);
+}
+
 /*i:hover{
     color: #430297;
     transform: scale(1.3);
 }*/
 
-.container-services-wide i:hover{
+.container-services-wide i:hover {
     transform: none;
     color: black;
 }
-    
+
 ul li {
     color: #430297;
     font-size: larger;
