@@ -194,7 +194,7 @@ h3 {
 
 #yahoologo {
     animation-duration: 4s;
-    animation-delay: 2s;
+    animation-delay: 1.5s;
     animation-iteration-count: 1;
     position: absolute;
     width: auto;
@@ -429,17 +429,16 @@ h3 {
 
 .zoom:hover {
     color: #430297;
-    transform: scale(1.3);
+    transform: scale(1.2);
 }
 
 .shrink:hover {
-    transform: scale(.9);
+    transform: scale(.95);
 }
 
-/*i:hover{
+.purple:hover{
     color: #430297;
-    transform: scale(1.3);
-}*/
+}
 
 .container-services-wide i:hover {
     transform: none;
@@ -457,4 +456,8 @@ ul li span {
 
 footer ul li {
     color: black;
+}
+
+.strong {
+    font-weight: bold;
 }
